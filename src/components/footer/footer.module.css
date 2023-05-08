@@ -1,12 +1,10 @@
 .container {
   display: flex;
   flex-direction: column;
-  background-color: red;
   padding-top: 15vh;
 }
 
 .img {
-  background-color: blue;
   width: 100%;
   /* clip-path: polygon(0 70%, 100% 70%, 100% 100%, 0 100%); */
   /* margin-top: -600px; */
