@@ -1,0 +1,120 @@
+.container {
+  padding-top: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.title {
+  font-family: "Bakbak One";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 120%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  width: 56%;
+  margin-bottom: 80px;
+}
+
+.title h1 span {
+  color: #ff0008;
+}
+
+.questions {
+  display: flex;
+  justify-content: space-between;
+  text-align: start;
+  width: 90%;
+}
+
+.firstcolumn div {
+  border-bottom: 1px solid #ff0008;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.secondcolumn div {
+  border-bottom: 1px solid #ff0008;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.firstcolumn div img,
+.secondcolumn div img {
+  margin-top: -15px;
+}
+
+.firstcolumn div:nth-child(1) {
+  border-top: 1px solid #ff0008;
+}
+
+.secondcolumn div:nth-child(1) {
+  border-top: 1px solid #ff0008;
+}
+
+.firstcolumn div p,
+.secondcolumn div p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.firstcolumn div img,
+.secondcolumn div img {
+  cursor: pointer;
+}
+.contact {
+  padding-top: 150px;
+}
+.contact h1 {
+  font-family: "Bakbak One";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 120%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.contact p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+}
+
+button {
+  width: 243px;
+  height: 56px;
+  padding: 12px;
+  background: transparent;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: 1px solid #ff0008;
+  transition: transform 0.2s linear 0s;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+@media only screen and (max-width: 1300px) {
+  .questions {
+    flex-direction: column;
+    width: 70%;
+  }
+}

@@ -1,0 +1,88 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 150px;
+}
+
+.img {
+  width: 100%;
+  margin-top: -500px;
+  clip-path: polygon(0 70%, 100% 70%, 100% 100%, 0 100%);
+  /* margin-top: -600px; */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 124px;
+  position: relative;
+}
+
+.navItems {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 20px;
+  list-style: none;
+}
+
+.navItems li a {
+  text-decoration: none;
+  font-family: "Bakbak One";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--whitecolor);
+}
+
+.navbar li a:active {
+  border-bottom: 1px solid var(--redcolor);
+}
+.navbar li a:hover {
+  border-bottom: 1px solid var(--redcolor);
+}
+
+.logo {
+  transition: all 0.2s linear 0s;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
+.logo:not(:hover) {
+  transform: scale(1);
+}
+
+.socials {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+.socials img {
+  cursor: pointer;
+  transition: transform 0.2s linear 0s;
+}
+
+.socials img:hover {
+  transform: scale(1.2);
+}
+
+@media only screen and (max-width: 1100px) {
+  .navItems {
+    display: none;
+  }
+  .btn {
+    display: none;
+  }
+  .icon {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  details {
+    display: none;
+  }
+}

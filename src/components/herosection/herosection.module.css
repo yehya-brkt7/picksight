@@ -1,0 +1,39 @@
+.maincontainer {
+  display: grid;
+  grid-row: 2fr 1fr;
+  position: relative;
+}
+
+.background {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.backgroundcontainer {
+  position: relative;
+}
+
+.backgroundtext {
+  position: absolute;
+  width: 1056px;
+  bottom: 8%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: "Rubik Glitch";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 160.5%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 1100px) {
+  .backgroundtext {
+    font-size: 4vw;
+    width: 100%;
+  }
+}
