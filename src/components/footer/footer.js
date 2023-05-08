@@ -1,5 +1,5 @@
 import styles from "./footer.module.css";
-import smokebackground from "../../assets/effect.png";
+import smokebackground from "../../assets/effect2.png";
 import logo from "../../assets/logo.png";
 import fb from "../../assets/facebook.png";
 import insta from "../../assets/insta.png";
