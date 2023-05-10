@@ -21,14 +21,14 @@ const Boxes = () => {
   }, []);
 
   return (
-    <div className={styles.maincontainer}>
+    <main className={styles.maincontainer}>
       <img
         className={styles.smokebackground}
         src={smokeeffect}
         style={{ height: contentHeight + 400 }}
       ></img>
 
-      <div className={styles.boxes} ref={contentRef}>
+      <section className={styles.boxes} ref={contentRef}>
         <div className={styles.box}>
           <img src={righticon} className={styles.righticon}></img>
           <h5>Trova la motivazione</h5>
@@ -55,8 +55,8 @@ const Boxes = () => {
             mie giuste strategie di combattimento.
           </p>
         </div>
-      </div>
-    </div>
+      </section>
+    </main>
   );
 };
 

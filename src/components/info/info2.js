@@ -4,11 +4,11 @@ import trophy from "../../assets/trophy.png";
 
 const Info2 = () => {
   return (
-    <div className={styles.container}>
+    <main className={styles.container}>
       <div className={styles.imagecontainer}>
         <img src={boxer} className={styles.image}></img>
       </div>
-      <div className={styles.text}>
+      <section className={styles.text}>
         <h1>
           La mia passione per la boxe e il mio sogno di allenare campioni{" "}
           <img src={trophy}></img>
@@ -27,8 +27,8 @@ const Info2 = () => {
           realizzare i loro sogni.
         </p>
         <button className={styles.btn}>prenota una chiamata</button>
-      </div>
-    </div>
+      </section>
+    </main>
   );
 };
 

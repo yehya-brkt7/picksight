@@ -9,8 +9,8 @@ import boxer8 from "../../assets/boxer8.png";
 
 const Info3 = () => {
   return (
-    <div className={styles.container}>
-      <div className={styles.text}>
+    <main className={styles.container}>
+      <section className={styles.text}>
         <h1>
           Entra nella squadra di Tony Ray e{" "}
           <img src={gloves} className={styles.gloves}></img>raggiungi nuovi
@@ -21,8 +21,8 @@ const Info3 = () => {
           Lavoreremo insieme sodo, ma alla fine vedrai i risultati come hanno
           fatto tanti altri prima di te.
         </p>
-      </div>
-      <div className={styles.imagescontainer}>
+      </section>
+      <section className={styles.imagescontainer}>
         <img src={boxer1} className={styles.image}></img>
         <img src={boxer2} className={styles.image}></img>
         <img src={boxer3} className={styles.image}></img>
@@ -33,8 +33,8 @@ const Info3 = () => {
         <img src={boxer8} className={styles.image}></img>
         <img src={boxer2} className={styles.image}></img>
         <img src={boxer1} className={styles.image}></img>
-      </div>
-    </div>
+      </section>
+    </main>
   );
 };
 

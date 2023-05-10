@@ -3,13 +3,13 @@ import arrowdown from "../../assets/arrow-down.png";
 
 const Questions = () => {
   return (
-    <div className={styles.container}>
+    <main className={styles.container}>
       <div className={styles.title}>
         <h1>
           Qual è il segreto per diventare un campione di boxe<span>?</span>
         </h1>
       </div>
-      <div className={styles.questions}>
+      <section className={styles.questions}>
         <div className={styles.firstcolumn}>
           <div>
             <p>Qual è il segreto per diventare un campione di boxe?</p>
@@ -72,16 +72,16 @@ const Questions = () => {
             <img src={arrowdown}></img>
           </div>
         </div>
-      </div>
-      <div className={styles.contact}>
+      </section>
+      <section className={styles.contact}>
         <h1>Hai altre domade?</h1>
         <p>
           Perfetto, scrivi pure! Ma fammi sapere chi sei e quali sono i tuoi
           obiettivi.
         </p>
         <button>+34 346 789 456</button>
-      </div>
-    </div>
+      </section>
+    </main>
   );
 };
 

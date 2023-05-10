@@ -8,7 +8,7 @@ import linkedin from "../../assets/linkedIn.png";
 
 const Footer = () => {
   return (
-    <div className={styles.container}>
+    <footer className={styles.container}>
       <div className={styles.title}>
         <img className={styles.img} src={smokebackground}></img>
       </div>
@@ -40,7 +40,7 @@ const Footer = () => {
           <img src={linkedin}></img>
         </div>
       </nav>
-    </div>
+    </footer>
   );
 };
 export default Footer;

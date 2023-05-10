@@ -3,8 +3,8 @@ import ring from "../../assets/ring.png";
 
 const Info = () => {
   return (
-    <div className={styles.container}>
-      <div className={styles.text}>
+    <main className={styles.container}>
+      <section className={styles.text}>
         <h1>
           Il prezzo da pagare per diventare un <span>campione</span>
         </h1>
@@ -18,12 +18,12 @@ const Info = () => {
           campione.
         </p>
         <button className={styles.btn}>prenota una chiamata</button>
-      </div>
-      <div className={styles.imagecontainer}>
+      </section>
+      <section className={styles.imagecontainer}>
         <img src={ring} className={styles.image}></img>
         <div className={styles.ellipse}></div>
-      </div>
-    </div>
+      </section>
+    </main>
   );
 };
 

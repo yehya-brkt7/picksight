@@ -3,11 +3,11 @@ import boxer10 from "../../assets/boxer10.png";
 
 const Info4 = () => {
   return (
-    <div className={styles.container}>
+    <main className={styles.container}>
       <div className={styles.imagecontainer}>
         <img src={boxer10} className={styles.image}></img>
       </div>
-      <div className={styles.text}>
+      <section className={styles.text}>
         <h1>
           Trasforma i tuoi sogni di pugilato in realta <span>’</span>
         </h1>
@@ -23,8 +23,8 @@ const Info4 = () => {
           sognato di essere.
         </p>
         <button className={styles.btn}>Diventa il migliore</button>
-      </div>
-    </div>
+      </section>
+    </main>
   );
 };
 

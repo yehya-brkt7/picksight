@@ -3,7 +3,7 @@ import logo from "../../assets/logo.png";
 
 const Navbar = () => {
   return (
-    <>
+    <header>
       <nav className={styles.navbar}>
         <div className={styles.logo}>
           <img src={logo} alt="Logo" />
@@ -44,7 +44,7 @@ const Navbar = () => {
           </a>
         </nav>
       </details>
-    </>
+    </header>
   );
 };
 
